@@ -1,0 +1,13 @@
+TODO for DateTime::TimeZone::TAI
+================================
+
+ - On a leap second, the output of the module is one second off. This
+   is because of a bug in DateTime.pm; it is at this moment (DateTime
+   version 0.24) not possible to work around this bug. As soon as
+   DateTime is fixed, this module will be fixed as well.
+
+ - In DateTime::new(), the TAI "timezone" cannot be mentioned by name;
+   it has to be created first with DT::TZ::TAI::new(). This is because
+   it has a one part name ("TAI"), which is not accepted by
+   DT::TZ::new(). Either DT::TZ::new or the name of this module has to
+   be changed.

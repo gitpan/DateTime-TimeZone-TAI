@@ -1,0 +1,14 @@
+DateTime::TimeZone::TAI
+=======================
+
+With this module, you can create DateTime objects with times expressed
+in the TAI time scale, instead of UTC or derived civil time zones.
+
+INSTALLATION
+
+To install this module type the following:
+
+perl Build.PL
+./Build
+./Build test
+./Build install

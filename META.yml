@@ -1,0 +1,18 @@
+--- #YAML:1.0
+name: DateTime-TimeZone-TAI
+version: 0.00_01
+author:
+  - Eugene van der Pijll
+abstract: Implements the TAI timescale for DateTime objects
+license: perl
+requires:
+  DateTime: 0.24
+recommends:
+  Test::Pod: 1
+build_requires:
+  Test::More: 0
+provides:
+  DateTime::TimeZone::TAI:
+    file: lib/DateTime/TimeZone/TAI.pm
+    version: 0.00_01
+generated_by: Module::Build version 0.2606
